@@ -1,0 +1,129 @@
+/**
+ * 로블록스 루아 교육 - 커스텀 스타일
+ * 로블록스 브랜드 색상 기반
+ */
+
+/* Roblox 스타일 색상 */
+:root {
+  --ifm-color-primary: #e31b3d;
+  --ifm-color-primary-dark: #cc1836;
+  --ifm-color-primary-darker: #c01633;
+  --ifm-color-primary-darkest: #9e122a;
+  --ifm-color-primary-light: #e63354;
+  --ifm-color-primary-lighter: #e8405f;
+  --ifm-color-primary-lightest: #ec6a83;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(227, 27, 61, 0.1);
+  --ifm-font-family-base: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --ifm-heading-font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+/* 다크 모드 색상 */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff4d6d;
+  --ifm-color-primary-dark: #ff2a50;
+  --ifm-color-primary-darker: #ff193f;
+  --ifm-color-primary-darkest: #e5002c;
+  --ifm-color-primary-light: #ff708a;
+  --ifm-color-primary-lighter: #ff819b;
+  --ifm-color-primary-lightest: #ffb3c2;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 77, 109, 0.2);
+}
+
+/* 코드 블록 스타일 */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* 네비게이션 바 스타일 */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+/* 사이드바 스타일 */
+.menu__link {
+  border-radius: 6px;
+}
+
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* 문서 페이지 스타일 */
+.markdown h1:first-child {
+  font-size: 2.5rem;
+}
+
+.markdown h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* 코드 복사 버튼 */
+.copyButton {
+  border-radius: 4px;
+}
+
+/* 알림 박스 스타일 */
+.alert {
+  border-radius: 8px;
+}
+
+/* 테이블 스타일 */
+table {
+  display: table;
+  width: 100%;
+}
+
+th {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* 반응형 개선 */
+@media (max-width: 996px) {
+  .markdown h1:first-child {
+    font-size: 2rem;
+  }
+}
+
+/* Lua 코드 하이라이팅 개선 */
+.token.keyword {
+  font-weight: 600;
+}
+
+/* 팁 박스 스타일 */
+.admonition {
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* 홈페이지 히어로 섹션 */
+.hero {
+  padding: 4rem 0;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* 버튼 스타일 */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
