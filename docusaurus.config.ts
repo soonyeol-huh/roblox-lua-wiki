@@ -11,11 +11,12 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://roblox-lua-wiki.example.com',
-  baseUrl: '/',
+  url: 'https://soonyeol-huh.github.io',
+  baseUrl: '/roblox-lua-wiki/',
 
-  organizationName: 'roblox-lua-edu',
+  organizationName: 'soonyeol-huh',
   projectName: 'roblox-lua-wiki',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
