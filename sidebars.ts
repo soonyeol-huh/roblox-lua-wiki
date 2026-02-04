@@ -67,6 +67,15 @@ const sidebars: SidebarsConfig = {
         'curriculum/week-19-21/animation',
       ],
     },
+    {
+      type: 'category',
+      label: '8단계: 게임 장르 만들기 (22-24주차)',
+      items: [
+        'curriculum/week-22-24/obby',
+        'curriculum/week-22-24/tycoon',
+        'curriculum/week-22-24/simulator',
+      ],
+    },
   ],
   projectsSidebar: [
     {

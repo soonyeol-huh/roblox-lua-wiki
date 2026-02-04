@@ -108,6 +108,10 @@ const config: Config = {
               label: '7단계: 데이터 저장 & 효과',
               to: '/curriculum/week-19-21/datastore',
             },
+            {
+              label: '8단계: 게임 장르 만들기',
+              to: '/curriculum/week-22-24/obby',
+            },
           ],
         },
         {
