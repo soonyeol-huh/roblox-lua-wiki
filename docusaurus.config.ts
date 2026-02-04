@@ -104,6 +104,10 @@ const config: Config = {
               label: '6단계: GUI 만들기',
               to: '/curriculum/week-16-18/gui-basics',
             },
+            {
+              label: '7단계: 데이터 저장 & 효과',
+              to: '/curriculum/week-19-21/datastore',
+            },
           ],
         },
         {

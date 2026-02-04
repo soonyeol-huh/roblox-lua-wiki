@@ -58,6 +58,15 @@ const sidebars: SidebarsConfig = {
         'curriculum/week-16-18/ui-animation',
       ],
     },
+    {
+      type: 'category',
+      label: '7단계: 데이터 저장 & 효과 (19-21주차)',
+      items: [
+        'curriculum/week-19-21/datastore',
+        'curriculum/week-19-21/sound-particles',
+        'curriculum/week-19-21/animation',
+      ],
+    },
   ],
   projectsSidebar: [
     {
