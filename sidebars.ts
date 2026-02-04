@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '3단계: 이벤트/조건문 (7-9주차)',
       items: [
+        'curriculum/week-07-09/server-client',
         'curriculum/week-07-09/events',
         'curriculum/week-07-09/loops',
         'curriculum/week-07-09/humanoid',
