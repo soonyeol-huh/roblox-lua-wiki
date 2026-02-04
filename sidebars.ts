@@ -39,6 +39,24 @@ const sidebars: SidebarsConfig = {
         'curriculum/week-10-12/publish',
       ],
     },
+    {
+      type: 'category',
+      label: '5단계: 외부 에디터 연동 (13-15주차)',
+      items: [
+        'curriculum/week-13-15/rojo-intro',
+        'curriculum/week-13-15/rojo-sync',
+        'curriculum/week-13-15/git-workflow',
+      ],
+    },
+    {
+      type: 'category',
+      label: '6단계: GUI 만들기 (16-18주차)',
+      items: [
+        'curriculum/week-16-18/gui-basics',
+        'curriculum/week-16-18/advanced-components',
+        'curriculum/week-16-18/ui-animation',
+      ],
+    },
   ],
   projectsSidebar: [
     {
