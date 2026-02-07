@@ -6,6 +6,8 @@ sidebar_position: 2
 
 플레이어의 점수를 화면에 표시하는 리더보드 시스템을 만들어봐요! 서버 스크립트, 동적 객체 생성, 이벤트 처리를 배울 수 있어요.
 
+![리더보드 시스템](/img/screenshots/leaderboard-demo.png)
+
 ## 프로젝트 개요
 
 | 항목 | 내용 |

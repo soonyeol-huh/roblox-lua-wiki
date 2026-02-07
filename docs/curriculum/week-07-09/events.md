@@ -6,6 +6,8 @@ sidebar_position: 2
 
 **이벤트**는 게임에서 일어나는 "사건"이에요. 플레이어가 파트에 닿거나, 버튼을 클릭하거나, 게임에 입장하는 것 모두 이벤트예요!
 
+![이벤트 - Touched 이벤트](/img/screenshots/events-demo.png)
+
 ## 학습 목표
 
 - 이벤트의 개념을 이해한다

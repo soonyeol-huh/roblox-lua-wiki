@@ -6,6 +6,8 @@ sidebar_position: 3
 
 **반복문**은 같은 코드를 여러 번 실행할 때 사용해요. 엔트리의 "계속 반복하기"나 "~번 반복하기" 블록과 같아요!
 
+![반복문으로 만든 패턴](/img/screenshots/loops-demo.png)
+
 ## 학습 목표
 
 - while 반복문을 사용할 수 있다

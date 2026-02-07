@@ -6,6 +6,8 @@ sidebar_position: 3
 
 ProximityPrompt를 사용해서 E 키를 눌러 아이템을 구매하는 상점을 만들어봐요! 상호작용 시스템과 경제 시스템을 배울 수 있어요.
 
+![상점 시스템](/img/screenshots/shop-demo.png)
+
 ## 프로젝트 개요
 
 | 항목 | 내용 |

@@ -6,6 +6,8 @@ sidebar_position: 4
 
 **Humanoid**는 플레이어 캐릭터의 핵심이에요! 체력, 이동 속도, 점프력 등을 제어할 수 있어요.
 
+![Humanoid 속성 제어](/img/screenshots/humanoid-demo.png)
+
 ## 학습 목표
 
 - Humanoid의 역할을 이해한다

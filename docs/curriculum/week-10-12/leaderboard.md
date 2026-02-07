@@ -6,6 +6,8 @@ sidebar_position: 1
 
 **리더보드**는 플레이어의 점수를 화면에 표시하는 시스템이에요. 모든 로블록스 게임에서 볼 수 있는 그 점수판을 직접 만들어볼 거예요!
 
+![리더보드와 코인 수집](/img/screenshots/leaderboard-demo.png)
+
 ## 학습 목표
 
 - leaderstats의 구조를 이해한다

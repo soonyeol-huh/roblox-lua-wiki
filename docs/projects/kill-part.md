@@ -6,6 +6,8 @@ sidebar_position: 1
 
 닿으면 캐릭터가 사망하는 용암/함정 파트를 만들어봐요! 이 프로젝트를 통해 이벤트, 조건문, 계층 구조를 모두 학습할 수 있어요.
 
+![킬 파트와 Obby](/img/screenshots/killpart-obby.png)
+
 ## 프로젝트 개요
 
 | 항목 | 내용 |
