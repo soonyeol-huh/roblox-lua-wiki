@@ -2,78 +2,79 @@
 
 초등학생을 위한 로블록스 루아 스크립트 학습 사이트입니다.
 
+> **사이트 바로가기**: https://soonyeol-huh.github.io/roblox-lua-wiki/
+
+## 스크린샷
+
+### Obby (장애물 코스) 예제
+![Obby 예제 장면](static/img/screenshots/killpart-obby.png)
+
+### Tycoon 예제
+![Tycoon 예제 장면](static/img/screenshots/tycoon.png)
+
 ## 주요 기능
 
-- 12주 커리큘럼 (스튜디오 기초 → 루아 기초 → 이벤트/조건문 → 시스템 구축)
+- **24주 커리큘럼** (8단계, 블록 코딩 → 텍스트 코딩 전환)
 - 3개의 실습 프로젝트 (킬 파트, 리더보드, 상점 시스템)
+- 게임 장르별 실습 (Obby, Tycoon, 시뮬레이터)
 - 엔트리 → 루아 변환표
-- 디버깅 가이드
-- 용어집
+- 디버깅 가이드 & 용어집
+
+## 커리큘럼 개요
+
+| 단계 | 기간 | 학습 내용 |
+|------|------|----------|
+| **1단계** | 1-3주차 | 로블록스 스튜디오 인터페이스와 3D 모델링 |
+| **2단계** | 4-6주차 | 루아 스크립트 기초와 속성 제어 |
+| **3단계** | 7-9주차 | 이벤트, 조건문, 서버/클라이언트 구조 |
+| **4단계** | 10-12주차 | 시스템 구축과 게임 게시 |
+| **5단계** | 13-15주차 | Rojo 플러그인을 통한 외부 에디터 연동 |
+| **6단계** | 16-18주차 | 고급 GUI 만들기 |
+| **7단계** | 19-21주차 | DataStore, 사운드, 애니메이션 |
+| **8단계** | 22-24주차 | 게임 장르 만들기 (Obby, Tycoon, 시뮬레이터) |
 
 ## 기술 스택
 
 - [Docusaurus 3](https://docusaurus.io/) - React 기반 문서 사이트 프레임워크
 - TypeScript
 - Lua 코드 구문 하이라이팅
+- GitHub Pages 자동 배포 (GitHub Actions)
 
-## 설치
+## 설치 및 실행
 
 ```bash
+# 의존성 설치
 npm install
-```
 
-## 개발 서버 실행
-
-```bash
+# 개발 서버 실행
 npm run start
-```
 
-http://localhost:3000 에서 사이트를 확인할 수 있습니다.
-
-## 빌드
-
-```bash
+# 빌드
 npm run build
 ```
-
-`build` 폴더에 정적 파일이 생성됩니다.
-
-## 빌드된 사이트 미리보기
-
-```bash
-npm run serve
-```
-
-## 배포
-
-### GitHub Pages
-
-```bash
-GIT_USER=<GitHub 사용자명> npm run deploy
-```
-
-### 기타 호스팅
-
-`build` 폴더의 내용을 정적 호스팅 서비스에 업로드합니다.
 
 ## 프로젝트 구조
 
 ```
 docs/
-├── intro.md                    # 소개 페이지
+├── intro.md                        # 소개 페이지
 ├── curriculum/
-│   ├── week-01-03/            # 1단계: 스튜디오 기초
-│   ├── week-04-06/            # 2단계: 루아 기초
-│   ├── week-07-09/            # 3단계: 이벤트/조건문
-│   └── week-10-12/            # 4단계: 시스템 구축
+│   ├── week-01-03/                 # 1단계: 스튜디오 기초
+│   ├── week-04-06/                 # 2단계: 루아 기초
+│   ├── week-07-09/                 # 3단계: 이벤트/조건문/서버-클라이언트
+│   ├── week-10-12/                 # 4단계: 시스템 구축
+│   ├── week-13-15/                 # 5단계: Rojo/외부 에디터
+│   ├── week-16-18/                 # 6단계: GUI 만들기
+│   ├── week-19-21/                 # 7단계: DataStore/사운드/애니메이션
+│   └── week-22-24/                 # 8단계: Obby/Tycoon/시뮬레이터
 ├── projects/
-│   ├── kill-part.md           # 킬 파트 프로젝트
-│   ├── leaderboard.md         # 리더보드 프로젝트
-│   └── proximity-prompt.md    # 상점 시스템 프로젝트
+│   ├── kill-part.md                # 킬 파트 프로젝트
+│   ├── leaderboard.md              # 리더보드 프로젝트
+│   └── proximity-prompt.md         # 상점 시스템 프로젝트
 ├── reference/
-│   ├── entry-to-lua.md        # 엔트리→루아 변환표
-│   └── debugging.md           # 디버깅 가이드
-└── glossary.md                # 용어집
+│   ├── entry-to-lua.md             # 엔트리→루아 변환표
+│   └── debugging.md                # 디버깅 가이드
+└── glossary.md                     # 용어집
 ```
 
 ## 라이선스
