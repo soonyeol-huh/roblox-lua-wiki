@@ -59,6 +59,8 @@ Draw: 브러시로 그리듯이 지형을 만듭니다
 - **Asphalt**: 아스팔트 도로
 - **Brick**: 벽돌
 
+![터레인 지형 예시](/img/screenshots/terrain-example.png)
+
 ## 산 만들기 실습
 
 ### 1단계: 기본 땅 만들기

@@ -31,6 +31,10 @@ sidebar_position: 1
 
 스튜디오를 처음 열면 여러 창이 보여요. 각각의 역할을 알아볼까요?
 
+![스튜디오 화면 구성](/img/screenshots/part-types.png)
+
+위 화면에서 왼쪽에는 **속성(Properties)** 창, 오른쪽에는 **탐색기(Explorer)** 창, 가운데에는 **3D 뷰포트**, 위에는 **도구 모음**이 있어요.
+
 ### 탐색기 (Explorer)
 
 ```

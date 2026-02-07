@@ -28,6 +28,8 @@ sidebar_position: 2
 - Wedge: 삼각형 모양의 경사면
 ```
 
+![파트 종류 비교](/img/screenshots/part-types.png)
+
 ### 파트 삭제하기
 
 - 파트를 선택한 후 `Delete` 키를 누릅니다
@@ -73,6 +75,8 @@ Ctrl 키를 누른 채로 이동하면 1 스터드(stud) 단위로 정확하게 
 :::caution 중요한 개념!
 앵커는 물체를 공중에 고정시키는 기능이에요!
 :::
+
+![앵커 비교](/img/screenshots/anchor-demo.png)
 
 ### 앵커가 꺼져있을 때
 
@@ -127,6 +131,8 @@ Material 속성을 바꾸면 나무, 금속, 네온 등
 - Metal: 금속
 - Neon: 발광 (빛남!)
 - Glass: 유리 (반투명)
+
+![재질 비교](/img/screenshots/materials.png)
 
 ## 연습 문제
 
