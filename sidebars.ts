@@ -76,6 +76,33 @@ const sidebars: SidebarsConfig = {
         'curriculum/week-22-24/simulator',
       ],
     },
+    {
+      type: 'category',
+      label: '9단계: 블렌더 기초 (25-27주차)',
+      items: [
+        'curriculum/week-25-27/blender-setup',
+        'curriculum/week-25-27/viewport-navigation',
+        'curriculum/week-25-27/basic-objects',
+      ],
+    },
+    {
+      type: 'category',
+      label: '10단계: 블렌더 3D 모델링 (28-30주차)',
+      items: [
+        'curriculum/week-28-30/modeling-for-roblox',
+        'curriculum/week-28-30/uv-mapping',
+        'curriculum/week-28-30/texturing',
+      ],
+    },
+    {
+      type: 'category',
+      label: '11단계: 블렌더 → 로블록스 연동 (31-33주차)',
+      items: [
+        'curriculum/week-31-33/mesh-export',
+        'curriculum/week-31-33/rigging',
+        'curriculum/week-31-33/blender-animation',
+      ],
+    },
   ],
   projectsSidebar: [
     {
